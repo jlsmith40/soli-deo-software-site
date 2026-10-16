@@ -1,0 +1,55 @@
+Church Abandoned privacy notice
+
+Version CA-PRIVACY-2026-10-16-v1
+
+Who operates the app
+
+Church Abandoned operates this app for the church’s use. Soli Deo Software handles app support and privacy inquiries at support@solideosoftware.com. Church Administration handles chat-abuse reports through the administration dashboard. This notice covers the app and its supporting services; the SDS website has a separate privacy notice.
+
+Church parent-rights contact: Church Abandoned, Mountain View Elementary School, 145 Co Rd 627, Etowah, TN 37331; (423) 404-1772; ChurchAbandoned@ChurchAbdanoned.org. Church Administration handles authenticated requests for the child’s records, consent copies, withdrawal and deletion. Do not email consent records to SDS.
+
+Information and purposes
+
+Accounts and church activities. Firebase Authentication handles sign-in credentials. The service uses email, account identifier, names, verification status, birthday and derived age/permission information for access. Family features hold links, relationships, invitations and names of relatives without accounts. Group membership and event registrations identify participants. Attendance tools record counts and optional notes that may identify people. Church involvement can reveal religious affiliation. Adding a relative or a “Guardian” label does not verify parental authority.
+
+Chats and files. The service processes submitted messages, sender information, room membership, timestamps, read/unread state and uploaded photos/PDFs. Conversation participants and authorized dashboard readers can access content according to their permissions; dashboard access may extend beyond individual room membership. Recipients may save or share copies outside the app. Do not treat chat as confidential pastoral counseling. 
+
+Notifications. Device notification tokens and preferences support alerts. Apple APNs or Google FCM processes tokens and notification payloads. Device settings and preview preferences affect what appears in notifications.
+
+Problem reports. A submitted report contains your description and diagnostic information such as app/build/platform/OS, attempted device model, display/locale/timezone, permission/grant information and bounded screen/request/error history. A hashed account reference remains linkable. Redaction does not remove everything you might type. Do not include private chat content, consent forms, passwords or identity documents. Diagnostic report access is restricted to Developer users.
+
+Providers and external features
+
+Google Firebase Authentication, Firestore and Cloud Functions support accounts and backend processing; chat files use private Google Cloud Storage. The administration dashboard at caappadmin.org uses Firebase App Hosting. The SDS policy website is hosted on GitHub Pages; its security logging is covered by the separate website notice. Ordinary support/privacy email uses Zoho. The app uses Resend to deliver generic administrative alerts with protected-dashboard links. Alerts contain no report, chat or consent content. Recipients follow current permissions and notification preferences; problem-report alerts go only to actual Developer-group members. Resend processes recipient addresses and delivery metadata. Local quota metadata can remain up to31days; Resend’s own retention remains to be verified. Email acceptance does not guarantee inbox delivery.
+
+YouTube players connect to YouTube inside the app. Giving opens the church’s Church Center destination; the inspected app does not collect payment-card details. Map/social/scripture links connect to their destination services. Backend scripture and administrator sermon-analysis features include Crossway ESV and Google Gemini integrations. 
+
+Selected moderation provider, not active processing: OpenAI’s standalone /v1/moderations endpoint with omni-moderation-2024-09-26 is configured for text moderation with selected fitted settings, but enforcement remains disabled pending the compatible release and applicable provider/minors safeguards. 
+
+Retention and deletion
+
+Active chat messages and attached photos/PDFs have a server-side 90-day retention rule measured from original message creation. Access ends at the cutoff; physical cleanup runs asynchronously and may retry. Rooms and memberships are preserved. For eligible messages still unexpired when an event/standalone room is archived, the separate archive window runs for 90 days from archival; already-expired content cannot revive. This is not a universal 90-day maximum across archived records.
+
+User-filed abuse-report evidence has a separate 90-day-from-report schedule. Problem reports have a 30-day availability cutoff and scheduled cleanup; local pending report attempts expire on access after seven days. The inventoried global cloud-log buckets have 30-day and 400-day retention settings. These provider and administrative metadata schedules are separate from application-content schedules.  Active profiles, family/membership/registration/attendance records do not have a universal age-based expiry established by the audit. 
+
+Account deletion locks access and initiates resumable cleanup of account/profile, membership/family links, registrations, device/notification records, owned files and associated reports. Other people’s shared records can remain. Own messages are removed or reduced to technical remnants as the applicable cleanup runs. A nonidentifying completion receipt lasts 30 days. Cleanup is not guaranteed to finish in one worker interval, and cannot erase recipients’ exports or screenshots. 
+
+Children and parents
+
+New child activation is currently disabled. The completed process is for children under 13; people13 and older use ordinary signup. Disabled activation does not mean the service has no family or other information about children.
+
+The versioned parent notice describes the future verified-consent flow. The parent links the pairing request, reads and signs the notice using a verified adult account and supplies a separate required phone for verification. An authorized church leader independently confirms the known parent's identity, authority and specific consent. The phone is removed from the verification contact record at the decision; it is not a recovery phone. The signed notice, signature and version remain intact. Approval and account creation must pass the configured gates.
+
+After verified consent, the parent provides the child's first and last name, birthday and a separate username/password. Account identifiers, private credential verification, parent/family links and security/session information support authentication, age rules and recovery. This is not a child-only core account: ordinary permissions can include family/profile management, group/event participation and chat messages; room membership limits readership and attachment upload needs extra permissions. YouTube and external links currently have no child-specific exclusion. Enabling the parent flow does not itself enable OpenAI moderation, which remains disabled.
+
+Consent to account use does not authorize every optional disclosure. Separate parental consent is required for a disclosure that is not integral to the requested service; it must be supported and enforced before that disclosure occurs, or the disclosure must remain unavailable. The current one-assent interface does not implement separate choices. 
+
+Unlinked requests expire24hours from original creation; linked unfinished requests, including unused approvals, expire30days from original first linking. Recovery, replacement QR codes and activity do not reset those clocks. Necessary signed consent/verification evidence remains while the under-13 account relies on it. On withdrawal, deletion or the actual13thbirthday, keep only necessary minimal evidence for up to90days from original closure, with valid earlier deletion. The limit does not extend retention of child content. Access expiry and bounded physical cleanup are distinct.
+
+At13, consent reliance ends independently of parent management. Parent reset/suspend/delete authority continues only until the account holder is also server-verified as owning their recovery email. It then ends even if password setup was skipped; verified-email password recovery is available as the fallback. Removing the email later never restores parent authority. Suspended, withdrawn or deleted accounts do not reactivate through this transition. A separate minimal live recovery link never extends closed-consent retention.
+
+Parents can request review of their child's information, a copy of the consent record, refusal of further collection/use and deletion through the church contact above. The church must authenticate the request before securely providing information. 
+
+Contact and changes
+
+Soli Deo Software handles ordinary app support/privacy inquiries at support@solideosoftware.com. Do not email consent forms or verification records to SDS. Use the Church Administration contact above for authenticated child-record and parent-rights requests. We will post revisions to this notice and update its effective date.

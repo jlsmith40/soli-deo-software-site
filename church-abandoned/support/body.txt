@@ -1,0 +1,5 @@
+Church Abandoned support
+
+Soli Deo Software handles support and privacy inquiries for Church Abandoned. Email support@solideosoftware.com with your app version, device type, what happened and what you expected. Do not send passwords, verification codes, payment-card details, consent forms or private information about other people.
+
+“Report a problem” helps investigate technical issues. To report harmful chat content, use the chat-report control; Church Administration handles those reports through its dashboard.
